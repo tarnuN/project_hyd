@@ -26,12 +26,16 @@ A modern web application built using Angular 15, JSON Forms, and Tailwind CSS. T
 
 
 
-git clone (url)
+git clone url
+
 
 cd Assignment
-npm install
 
-ng serve/npm start
+npm install
+ng serve  # or npm start
+
+
+
 
 
 Running Tests
@@ -48,27 +52,24 @@ ng e2e
 
 
 
-Data Model Overview
-
-
-
+Data Model:
 
 interface LoanApplicationData {
-  firstName: string;          // Minimum length: 2
-  lastName: string;           // Minimum length: 2
-  email: string;              // Must be a valid email format
+  firstName: string;  // Minimum length: 2
+  lastName: string;   // Minimum length: 2
+  email: string;      // Must be a valid email format
   existingCustomer: boolean;  // Whether the user is a returning customer
   customerNumber?: string;    // Required if existingCustomer is true
-  loanType: string;           // Options: personal, business, mortgage, auto
-  loanAmount: number;         // Minimum amount: 1000
+  loanType: string;   // Options: personal, business, mortgage, auto
+  loanAmount: number; // Minimum amount: 1000
   address: {
-    street: string;           // Minimum length: 5, maximum length: 100
-    city: string;             // Only alphabetic characters, minimum length: 2
-    state: string;            // Only alphabetic characters, minimum length: 2
-    postalCode: string;       // 5-6 digit postal code
-    country: string;          // Only alphabetic characters, minimum length: 2
+    street: string;   // Minimum length: 5, maximum length: 100
+    city: string;     // Only alphabetic characters, minimum length: 2
+    state: string;    // Only alphabetic characters, minimum length: 2
+    postalCode: string;  // 5-6 digit postal code
+    country: string;  // Only alphabetic characters, minimum length: 2
   };
-  agreeToTerms: boolean;      // Must be true to submit
+  agreeToTerms: boolean;  // Must be true to submit
 }
 
 
