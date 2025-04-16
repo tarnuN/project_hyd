@@ -1,30 +1,30 @@
-Angular JSON Forms Demo App
+# Angular JSON Forms Demo App
 
-A modern web app built using Angular 15, JSON Forms, and Tailwind CSS, designed to render reactive and customizable forms directly from JSON schemas. The application demonstrates dynamic form generation, responsive design, and real-time validation using JSON Schema and UI Schema.
+A modern web application built using Angular 15, JSON Forms, and Tailwind CSS. The app demonstrates dynamic form generation, responsive design, and real-time validation using JSON Schema and UI Schema. It allows rendering of customizable forms directly from JSON schemas, showcasing a sleek user interface with instant validation and submission feedback.
+
+## Core Features
+
+- **Sleek UI** with smooth transitions and modern design
+- **Fully responsive** for all screen sizes and devices
+- **Real-time validation** to ensure accurate data entry
+- **Instant submission feedback** to improve user experience
+- **Built with Angular Material and JSON Forms** for efficient form management
+- **Customizable themes** to suit different branding styles
+
+## Requirements
+
+- Node.js version 14 or higher
+- npm version 6 or higher
+
+## Installation & Setup
+
+1. **Install Angular CLI globally**:
+
+   ```bash
+   npm install -g @angular/cli
 
 
-Core Features--
- -- Sleek UI with smooth transitions and modern design
 
---  Fully responsive for all screen sizes and devices
-
--- Real-time validation to ensure accurate data entry
-
--- Instant submission feedback to improve user experience
-
--- Built with Angular Material and JSON Forms for efficient form management
-
---  Customizable themes to suit different branding styles
-
-Requirements
-Node.js version 14 or higher
-
-npm version 6 or higher
-
-Install Angular CLI globally:
-
-
-npm install -g @angular/cli
 
 git clone (url)
 
