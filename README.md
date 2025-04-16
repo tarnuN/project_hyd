@@ -1,4 +1,6 @@
+Angular JSON Forms Demo App
 
+A modern web app built using Angular 15, JSON Forms, and Tailwind CSS, designed to render reactive and customizable forms directly from JSON schemas. The application demonstrates dynamic form generation, responsive design, and real-time validation using JSON Schema and UI Schema.
 
 
 Core Features--
